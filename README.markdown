@@ -22,3 +22,7 @@ const stylelintConfig = {
 
 module.exports = stylelintConfig;
 ```
+
+## Compatibility
+
+This package is developed and used with Node.js 12 (the active LTS [release](https://nodejs.org/en/about/releases/) as of 2020-06). The code should be forward-compatible, but use with newer Node.js versions is untested and unsupported.
