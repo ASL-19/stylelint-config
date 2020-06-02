@@ -1,6 +1,6 @@
 # @asl-19/stylelint-config
 
-Shared [stylelint](https://stylelint.io/) config for [ASL19](https://asl19.org/) projects.
+Shared [Stylelint](https://stylelint.io/) config for [ASL19](https://asl19.org/) projects.
 
 ## How to use
 
@@ -11,9 +11,9 @@ yarn add @asl-19/stylelint-config --dev
 npx install-peerdeps @asl-19/stylelint-config --dev
 ```
 
-### Add to ESLint config
+### Add to Stylelint config
 
-Create a `.eslintrc.js` containing (at least) the following:
+Create a `stylelint.config.js` containing (at least) the following:
 
 ```js
 const stylelintConfig = {
