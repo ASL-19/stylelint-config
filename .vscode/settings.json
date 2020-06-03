@@ -12,5 +12,12 @@
     "destructure",
     "peerdeps",
     "stylelint"
-  ]
+  ],
+  "search.exclude": {
+    ".yarn/releases/**/*": true,
+    ".yarnrc": true,
+    "CHANGELOG.markdown": true,
+    "LICENSE": true,
+    "yarn.lock": true
+  }
 }
