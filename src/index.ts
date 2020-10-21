@@ -283,6 +283,7 @@ const stylelintConfig = {
     ],
     "rule-empty-line-before": null,
     "selector-max-empty-lines": 1,
+    "value-keyword-case": null,
   },
 };
 
