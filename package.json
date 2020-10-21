@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/stylelint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Shared stylelint config for ASL19 projects",
   "author": {
     "name": "Grant Heaslip",
@@ -31,8 +31,8 @@
     "typescript": "^4.0.3"
   },
   "peerDependencies": {
-    "stylelint": "^13.3.3",
-    "stylelint-order": "^4.0.0",
-    "typescript": "^3.8.3"
+    "stylelint": "^13.7.2",
+    "stylelint-order": "^4.1.0",
+    "typescript": "^4.0.3"
   }
 }

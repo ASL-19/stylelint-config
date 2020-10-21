@@ -1,5 +1,12 @@
 # @asl-19/stylelint-config changelog
 
+## 0.1.5 [2020-10-21]
+
+### Changes
+
+* Switched to [@asl-19/eslint-config](https://github.com/ASL-19/eslint-config), upgraded dependencies [[#10](https://github.com/ASL-19/stylelint-config/pull/10)]
+* Upgraded dependencies, consolidated rules from internal projects [[#12](https://github.com/ASL-19/stylelint-config/pull/12)]
+
 ## 0.1.4 [2020-06-02]
 
 ### Fixes
