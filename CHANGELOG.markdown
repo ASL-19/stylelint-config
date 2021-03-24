@@ -1,5 +1,12 @@
 # @asl-19/stylelint-config changelog
 
+## [0.2.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.2.0) [2021-03-24]
+
+### Changes
+
+* Upgraded dependencies
+    * `stylelint` and `typescript` peer dependencies changed to most recent releases
+
 ## 0.1.5 [2020-10-21]
 
 ### Changes
