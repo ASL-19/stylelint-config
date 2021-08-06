@@ -7,7 +7,7 @@ Shared [Stylelint](https://stylelint.io/) config for [ASL19](https://asl19.org/)
 ### Install
 
 ```sh
-yarn add @asl-19/stylelint-config --dev
+npm install @asl-19/stylelint-config --dev
 npx install-peerdeps @asl-19/stylelint-config --dev
 ```
 
@@ -25,4 +25,4 @@ module.exports = stylelintConfig;
 
 ## Compatibility
 
-This package is developed and used with Node.js 14 (the active LTS [release](https://nodejs.org/en/about/releases/) as of 2021-03-24). The code should be forward-compatible, but use with newer Node.js versions is untested and unsupported.
+This package is developed and used with Node.js 16. The code should be forward-compatible, but use with other Node.js versions is untested and unsupported.
