@@ -1,5 +1,15 @@
 # @asl-19/stylelint-config changelog
 
+## [0.3.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.3.0) [2021-08-06]
+
+### Changes
+
+* Upgrade dependencies [[#16](https://github.com/ASL-19/stylelint-config/pull/16)]
+    * `stylelint-config-standard` upgraded to 22.0.0 (includes [`stylelint-config-recommended` 5.0.0](https://github.com/stylelint/stylelint-config-recommended/releases/tag/5.0.0))
+* Add `margin-inline-*`, `padding-inline-*`, and `border-inline-*` to `order/properties-order` [[#20](https://github.com/ASL-19/stylelint-config/pull/20)]
+* Add property-disallowed-list rule [[#24](https://github.com/ASL-19/stylelint-config/pull/24)]
+    * Contains CSS logical properties with insufficient browser support
+
 ## [0.2.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.2.0) [2021-03-24]
 
 ### Changes
