@@ -281,24 +281,24 @@ const stylelintConfig = {
         ],
       },
     ],
+    "property-disallowed-list": [
+      [
+        "inset-inline-end",
+        "inset-inline-start",
+        "margin-block",
+        "margin-inline",
+        "padding-block",
+        "padding-inline",
+      ],
+      {
+        message:
+          "Property disallowed due to insufficient browser support (there may be an equivalent Emotion utility function in @asl-19/emotion-utils)",
+      },
+    ],
     "rule-empty-line-before": null,
     "selector-max-empty-lines": 1,
     "value-keyword-case": null,
   },
-  "property-disallowed-list": [
-    [
-      "inset-inline-end",
-      "inset-inline-start",
-      "margin-block",
-      "margin-inline",
-      "padding-block",
-      "padding-inline",
-    ],
-    {
-      message:
-        "These properties are disallowed due to insufficient browser support. There may be an equivalent Emotion utility function in @asl-19/emotion-utils.",
-    },
-  ],
 };
 
 module.exports = stylelintConfig;
