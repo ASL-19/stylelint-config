@@ -12,9 +12,7 @@
   "files": [],
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "eslint": "eslint . --ext js,ts",
-    "prepublishOnly": "npm run build"
+    "eslint": "eslint . --ext js,ts"
   },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
@@ -24,8 +22,7 @@
     "@asl-19/eslint-config": "^0.4.0",
     "@types/node": "^16.4.13",
     "eslint": "^7.32.0",
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
+    "prettier": "^2.3.2"
   },
   "peerDependencies": {
     "stylelint": "^13.0.0",
