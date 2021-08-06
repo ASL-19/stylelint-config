@@ -20,12 +20,6 @@ const stylelintConfig = {
     // Based on https://github.com/constverum/stylelint-config-rational-order
     "order/properties-order": [
       {
-        groupName: "Font size",
-        emptyLineBefore: "always",
-        noEmptyLineBetween: true,
-        properties: ["font-size"],
-      },
-      {
         groupName: "Positioning",
         emptyLineBefore: "always",
         noEmptyLineBetween: true,
