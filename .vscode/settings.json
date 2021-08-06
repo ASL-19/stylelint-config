@@ -2,23 +2,18 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.enable": true,
   "eslint.validate": [
     "javascript",
     "typescript"
   ],
   "cSpell.words": [
     "Heaslip",
-    "destructure",
     "peerdeps",
     "stylelint"
   ],
   "search.exclude": {
-    ".yarn/releases/**/*": true,
-    ".yarnrc": true,
     "CHANGELOG.markdown": true,
     "LICENSE": true,
-    "yarn.lock": true
+    "package-lock.json": true
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
 }
