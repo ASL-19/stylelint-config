@@ -1,5 +1,16 @@
 # @asl-19/stylelint-config changelog
 
+## [0.4.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.4.0) [2021-10-28]
+
+### Changes
+
+* Upgraded dependencies and config for Stylelint 14 support [**Breaking**] [[#28](https://github.com/ASL-19/stylelint-config/pull/28)]
+
+    Note:
+
+    * The config now requires Stylelint 14
+    * The config now includes `stylelint-order` as a dependency, so it can be removed from project dependencies
+
 ## [0.3.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.3.0) [2021-08-06]
 
 ### Changes
