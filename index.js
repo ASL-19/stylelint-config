@@ -1,10 +1,26 @@
 const stylelintConfig = {
   extends: ["stylelint-config-standard", "stylelint-config-prettier"],
   plugins: ["stylelint-order"],
+  customSyntax: "@stylelint/postcss-css-in-js",
   rules: {
+    // As of 2021-10 even the latest version of Safari doesn’t support
+    // percentage opacity values, so we’ll need to suppress this rule until 2023
+    // at the earliest.
+    //
+    // https://caniuse.com/mdn-css_properties_opacity_percentages
+    "alpha-value-notation": null,
     "at-rule-empty-line-before": null,
+    // We can remove this in favour of the default color-function-notation
+    // "modern" value once some time passes (maybe mid-2022). As of 2021-10 the
+    // complete lack of IE support and relatively recent (2019) Safari support
+    // is concerning.
+    //
+    // https://stylelint.io/user-guide/rules/list/color-function-notation/
+    // https://caniuse.com/mdn-css_types_color_space_separated_functional_notation
+    "color-function-notation": "legacy",
     "comment-empty-line-before": null,
     "declaration-empty-line-before": null,
+    "font-family-name-quotes": "always-unless-keyword",
     "no-descending-specificity": null,
     "no-empty-source": null,
     "no-extra-semicolons": null,
@@ -296,6 +312,11 @@ const stylelintConfig = {
       },
     ],
     "rule-empty-line-before": null,
+    // For the most part when using Emotion we don’t need class or id selectors at
+    // all, and when we do we may not have control over their formatting (e.g.
+    // with third-party markup).
+    "selector-class-pattern": null,
+    "selector-id-pattern": null,
     "selector-max-empty-lines": 1,
     "value-keyword-case": null,
   },
