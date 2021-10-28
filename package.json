@@ -15,17 +15,18 @@
     "eslint": "eslint . --ext js,ts"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^22.0.0"
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
     "@asl-19/eslint-config": "^0.4.0",
-    "@types/node": "^16.4.13",
+    "@types/node": "^16.11.6",
     "eslint": "^7.32.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.4.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.0.0",
-    "stylelint-order": "^4.0.0"
+    "stylelint": "^14.0.1"
   }
 }
