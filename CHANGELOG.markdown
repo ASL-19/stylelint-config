@@ -1,5 +1,11 @@
 # @asl-19/stylelint-config changelog
 
+## [0.5.0](https://github.com/ASL-19/stylelint-config/pulls?q=is%3Apr+milestone%3A0.5.0) [2021-12-23]
+
+### Changes
+
+* Add postcss and postcss-syntax to dependencies [[#30](https://github.com/ASL-19/stylelint-config/pull/30)]
+
 ## 0.4.1 [2021-10-28]
 
 ### Changes
